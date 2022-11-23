@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/logo_batista.png">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img//undraw_shopping_re_3wst.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                 <div class="logo-church">   
+                <a href="">
+                  <img src="assets/img/logo_batista.jpg" alt="Logo Igreja Bastista">
+                </a> 
+                </div>
+                    <div class="title">
+                        <h1>Cadastro de Membros</h1>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="dia">Data de Nascimento:</label>
+                        <input id="dia" type="date" name="dia" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">RG:</label>
+                        <input id="rg" type="text" name="rg" autocomplete="off" maxlength="12" required> 
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">CPF:</label>
+                        <input id="cpf" type="text" name="cpf" maxlength="14" required> 
+		                
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cep">CEP:</label>
+                        <input id="txtCep" type="text" name="cep" required> 
+		                
+                    </div>
+
+                    <div class="input-box">
+                        <label for="rua">RUA:</label>
+                        <input id="txtRua" type="text" name="rua" required> 
+		                
+                    </div>
+
+                    <div class="input-box">
+                        <label for="numero">Nº:</label>
+                        <input id="txtNumero" type="number" name="numero" required> 
+		                
+                    </div>
+
+                    <div class="input-box">
+                        <label for="bairro">Bairro:</label>
+                        <input id="txtBairro" type="text" name="bairro" required> 
+		                
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cidade">Cidade:</label>
+                        <input id="txtCidade" type="text" name="cidade" required> 
+		                
+                    </div>
+
+                    <div class="input-box">
+                        <label for="estado">Estado:</label>
+                        <input id="txtEstado" type="text" name="Estado" required> 
+		                
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+                  
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="profession">Profissão</label>
+                        <input id="profession" type="text" name="profession" placeholder="Digite sua profissão" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="marital-status">Estado civil</label>
+                        <select id="marital-status" type="text" name="marital-status" required> 
+                            <option value="single">Solteiro</option>
+                            <option value="married">Casado</option>
+                        </select>
+                    </div>
+
+                    <hr>
+                    <div class="input-box">
+                        <div class="education-title">
+                            <h6>Grau de Escolaridade:</h6>
+                        </div>
+
+                        <div class="education-group">
+                            <div class="education-input">
+                                <input id="education" type="checkbox" name="education">
+                                <label for="education">Fundamental/Incompleto</label>
+                            </div>
+    
+                            <div class="education-input">
+                                <input id="education" type="checkbox" name="education">
+                                <label for="education">Fundamental/Completo</label>
+                            </div>
+
+                            <div class="education-input">
+                                <input id="education" type="checkbox" name="education">
+                                <label for="education">Médio/Incompleto</label>
+                            </div>
+
+                            <div class="education-input">
+                                <input id="education" type="checkbox" name="education">
+                                <label for="education">Médio/Completo</label>
+                            </div>
+
+                            <div class="education-input">
+                                <input id="education" type="checkbox" name="education">
+                                <label for="education">Superior/Incompleto</label>
+                            </div>
+
+                            <div class="education-input">
+                                <input id="education" type="checkbox" name="education">
+                                <label for="education">Superior/Completo</label>
+                            </div>
+
+                            <div class="education-input">
+                                <label for="course">Curso</label>
+                                <input id="course" type="text" name="course" placeholder="Exemplo: Engenharia, Medicina, Advogado etc..">
+                            </div>
+    
+                        </div>
+                    </div>
+
+                    
+
+                    <hr>
+                
+                    <div class="affiliation-input">
+                        <div class="affiliation-title">
+                            <h6>Filiação</h6>
+                        </div>
+
+                        <div class="affiliation-group">
+
+                            <div class="affiliation-input">
+                                <label for="MotherfirstName">Mãe</label>
+                                <input id="MotherfirstName" type="text" name="MotherfirstName" placeholder="Digite o primeiro nome" required>
+                            </div>
+
+                            <div class="affiliation-input">
+                                <label for="MotherLastName">Sobrenome</label>
+                                <input id="MotherLastName" type="text" name="MotherLastName" placeholder="Digite o sobrenome" required>
+                            </div>
+
+                            <div class="affiliation-input">
+                                <label for="FatherFirstName">Pai</label>
+                                <input id="FatherFirstName" type="text" name="FatherFirstName" placeholder="Digite o primeiro nome" required>
+                            </div>
+
+                            <div class="affiliation-input">
+                                <label for="FatherLastName">Sobrenome</label>
+                                <input id="FatherLastName" type="text" name="FatherLastName" placeholder="Digite o sobrenome" required>
+                           </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input id="female" type="radio" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input id="male" type="radio" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="submit-button">
+                    <button><a href="#">Enviar</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./cep.js"></script>
+</body>
+
+</html>

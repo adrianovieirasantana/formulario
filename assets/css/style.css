@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0c0ce94d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+.title {
+    margin-right: 95px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-church img {
+    width: 150px;
+    margin-right: 10px;
+    margin-top: -22px;
+}
+
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+    padding: 1rem;
+}
+
+.form-image img {
+    width: 31rem;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 2rem 1.1rem; 
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.1rem 1rem ;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+.input-group::-webkit-scrollbar {
+    width: 10px;
+    height: 2px;
+    background-color: #dcdcdc;
+}
+.input-group::-webkit-scrollbar-track {
+    background: #dcdcdc;
+}
+.input-group::-webkit-scrollbar-track-piece {
+    background: #dcdcdc;
+}
+.input-group::-webkit-scrollbar-thumb {
+    background: #c0c0c0;
+    border-radius: 5px;
+}
+.input-group::-webkit-scrollbar-corner {
+    background: #dcdcdc;
+    border-radius: 5px;
+}
+
+.affiliation-group {
+    margin-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.1rem 1rem ;
+}
+
+.input-box, 
+.affiliation-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input, 
+.input-box select,
+.affiliation-input input {
+    margin: 0.1rem 0;       
+    padding: 0.3rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+.affiliation-input input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+.input-box select:hover {
+    background-color: #eeeeee75;
+}
+.input-box select:focus-visible {
+    outline: 1px solid #6c63ff;
+}
+.affiliation-input input:focus-visible {
+    outline: 1px solid #6c63ff;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #6c63ff;
+}
+.input-box select {
+    outline: 1px solid #6c63ff;
+}
+.affiliation-input input::placeholder {
+    color: #000000be;
+}
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.input-box label,
+.affiliation-input,
+.gender-title h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+.education-title h6 {
+    margin-right: 500px;
+    margin-bottom: -22px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0; 
+}
+
+.affiliation-title h6 {
+    margin-right: 500px;
+    font-size: 0.79rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+#firstname, 
+#MotherfirstName,
+#FatherFirstName {
+    width: 189px;    
+}
+#lastname, 
+#MotherLastName,
+#FatherLastName {
+    width: 300px;  
+}
+
+#txtRua {
+    width: 450px;
+}
+
+#txtNumero {
+    width: 100px;
+}
+
+.education-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-top: 2rem;
+    padding: 0 .1rem;
+}
+.education-input {
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+}
+.education-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.gender-group {
+    display: block;
+    justify-content: space-between; 
+    margin-top: 2rem;
+    padding: 0 .9rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+#course {
+    width: 350px;
+}
+
+.gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+.gender-title {
+    margin-bottom: -20px;
+}
+.submit-button {
+   display: flex;
+   justify-content: center;
+   align-items:center;
+}
+
+.submit-button button {
+    width: 90%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button button:hover {
+    background-color: #6b63fff1;
+}
+
+.submit-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #aaa;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .form-image {
+        display: none;
+    }
+    .logo-church img {
+        margin-left: 50px;
+    }
+    .title h1 {
+        font-size: 25px;
+        margin-right: 150px;  
+    }
+
+    .container {
+        width: 50%;
+    }
+    .form {
+        height: 100%;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1064px) {
+    .container {
+        width: 100%;
+        height: auto;
+    }
+    .logo-church img {
+        margin-left: 50px;
+    }
+    .title h1 {
+        font-size: 25px;
+        margin-right: 150px;  
+    }
+    .input-group {
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 5rem;
+        padding-left: 5rem;
+        max-height: 10rem;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+    }
+    .education-input {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 5px;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    .affiliation-group, 
+    .education-group {
+        z-index: 5;
+        padding-right: 5rem;
+        padding-left: 5rem; 
+        flex-wrap: wrap;
+    }
+    .gender-inputs {
+        margin-top: 2rem;
+        margin-left: 50px;
+    }
+    .gender-group, 
+    .education-group {
+        flex-direction: column;
+    }
+
+    .gender-title h6,
+    .affiliation-title h6,
+    .education-title h6 {
+        margin: 0;
+    }
+    .gender-input, 
+    .affiliation-input,
+    .education-input {
+        margin-top: 0.5rem;
+    }
+    .submit-button button {
+         width: 80%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+}
